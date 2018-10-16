@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#F9F7E8"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main">
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="112dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="311dp"
+        android:text="開始"
+        android:background="@drawable/shaoe_oval"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/information"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="487dp"
+        android:background="@drawable/shaoe_oval"
+        android:text="個人資訊"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/game"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="489dp"
+        android:background="@drawable/shaoe_oval"
+        android:text="玩遊戲"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>
